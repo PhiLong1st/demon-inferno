@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Ground
+  - pyramid
+  - plane
+  - Rock
+  - Cloud
+  - Iceberg
+  - IceSpike
+  - Wall
+  - EnemyAttack
+  - Cell
+  - Trap
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - EnemyAttack
+  - Trigger
+  - Cell
+  - Trap
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2187867781
+    locked: 0
+  - name: Background 1
+    uniqueID: 1903849609
+    locked: 0
+  - name: Backgound 2
+    uniqueID: 58920853
+    locked: 0
+  - name: Background 3
+    uniqueID: 99804009
+    locked: 0
+  - name: Foreground
+    uniqueID: 2385522631
+    locked: 0
+  - name: Water
+    uniqueID: 3952169341
+    locked: 0
+  - name: Trap
+    uniqueID: 2468972671
+    locked: 0
+  - name: Ground
+    uniqueID: 890210543
+    locked: 0
+  - name: Enemy
+    uniqueID: 2108312481
+    locked: 0
+  - name: Player
+    uniqueID: 2510430811
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 2854977559
+    locked: 0
+  - name: Particle
+    uniqueID: 4091127969
+    locked: 0
+  m_RenderingLayers:
+  - Default
