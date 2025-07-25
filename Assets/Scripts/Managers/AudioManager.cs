@@ -55,18 +55,14 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource sfxSource;
 
     [Header("Audio Data")]
-    [SerializeField]
-    private SoundSFXData[] audioSFXClips;
+    [SerializeField] private SoundSFXData[] audioSFXClips;
 
-    [SerializeField]
-    private SoundMusicData[] audioMusicClips;
+    [SerializeField] private SoundMusicData[] audioMusicClips;
 
     [Header("Volume Settings")]
-    [SerializeField]
-    private float musicVolume = 1f;
+    [SerializeField] private float musicVolume = 1f;
+    [SerializeField] private float sfxVolume = 1f;
 
-    [SerializeField]
-    private float sfxVolume = 1f;
     private Dictionary<AudioSFXEnum, SoundSFXData> audioSFXDictionary;
     private Dictionary<AudioMusicEnum, SoundMusicData> audioMusicDictionary;
 

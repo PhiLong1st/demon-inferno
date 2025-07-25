@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5520220414835186945}
   - component: {fileID: 7659201713270913364}
   - component: {fileID: 6053929428522195817}
-  - component: {fileID: 2886610498875980086}
+  - component: {fileID: 2203361646507646815}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2886610498875980086}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ExitButton, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
@@ -134,7 +134,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2886610498875980086
+--- !u!114 &2203361646507646815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2245725049363812394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eb8989fc5ef99a46a72301a6ae50586, type: 3}
+  m_Script: {fileID: 11500000, guid: 32c4d4fc32ee19b4ab01d775ccef831a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2762652700534849906
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 4895955504932448860}
   - component: {fileID: 8198830764494259741}
   - component: {fileID: 6334398329560728083}
-  - component: {fileID: 791434411175693131}
+  - component: {fileID: 8825162937677595943}
   m_Layer: 5
   m_Name: NewGameButton
   m_TagString: Untagged
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 791434411175693131}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BaseButton, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -346,7 +346,7 @@ MonoBehaviour:
           m_StringArgument: PickLevelScene
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &791434411175693131
+--- !u!114 &8825162937677595943
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -355,10 +355,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3328081358150960006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bca7d2ac0f714f5479a514090a693036, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e723e82f1df93c4d983e120a9364faf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeSceneOnClick: 1
   sceneNameToLoad: ForestScene
 --- !u!1 &5131137855626800858
 GameObject:
@@ -780,7 +779,7 @@ GameObject:
   - component: {fileID: 7835522971904540945}
   - component: {fileID: 5558168016605198806}
   - component: {fileID: 5908359728334071545}
-  - component: {fileID: 2687133040771526197}
+  - component: {fileID: 5983789811424544794}
   m_Layer: 5
   m_Name: CreditButton
   m_TagString: Untagged
@@ -890,7 +889,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2687133040771526197}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BaseButton, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -902,7 +901,7 @@ MonoBehaviour:
           m_StringArgument: PickLevelScene
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2687133040771526197
+--- !u!114 &5983789811424544794
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -911,12 +910,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6249936096518738580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d98d2ed461e916046bac726d4a432ada, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c55b1c06e93b964dab7e1b5b7d5485f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openPanelOnClick: 1
-  makePanelActive: 1
-  panelToOpen: {fileID: 0}
+  triggerPanelActive: 1
+  panelToTrigger: {fileID: 0}
 --- !u!1 &6878100903182336037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,7 +1063,7 @@ GameObject:
   - component: {fileID: 4164579907445910147}
   - component: {fileID: 3927635766015484081}
   - component: {fileID: 1561676553556041289}
-  - component: {fileID: 234658989780271845}
+  - component: {fileID: 1448006611585256846}
   m_Layer: 5
   m_Name: InstructionsButton
   m_TagString: Untagged
@@ -1175,7 +1173,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 234658989780271845}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 0
@@ -1187,7 +1185,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 234658989780271845}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BaseButton, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -1199,7 +1197,7 @@ MonoBehaviour:
           m_StringArgument: PickLevelScene
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &234658989780271845
+--- !u!114 &1448006611585256846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1208,9 +1206,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8902369070305651738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d98d2ed461e916046bac726d4a432ada, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c55b1c06e93b964dab7e1b5b7d5485f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openPanelOnClick: 1
-  makePanelActive: 1
-  panelToOpen: {fileID: 0}
+  triggerPanelActive: 1
+  panelToTrigger: {fileID: 0}

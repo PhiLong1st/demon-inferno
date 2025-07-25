@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ChangeSceneButton : BaseButton
+public class NewGameButton : BaseButton
 {
   [Header("Change Scene")]
   [SerializeField] private string sceneNameToLoad;

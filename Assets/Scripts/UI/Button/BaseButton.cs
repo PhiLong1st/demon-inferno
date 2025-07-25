@@ -1,12 +1,12 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class BaseButton : MonoBehaviour
+public abstract class BaseButton : MonoBehaviour, IPointerClickHandler
 {
-    public void OnClick()
+    public void OnPointerClick(PointerEventData eventData)
     {
         AudioManager.Instance.PlaySFX(AudioSFXEnum.ButtonClick);
         HandleClick();
     }
-
-    protected virtual void HandleClick() { }
+    protected abstract void HandleClick();
 }
